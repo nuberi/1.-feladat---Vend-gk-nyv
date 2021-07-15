@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #282877;
+}
+
+#keret {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #e2e2e2;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+button {
+    background-color: #282877;
+    color: #e2e2e2;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 1px solid #282877;
+    outline: 0;
+    padding: 8px 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: background 0.15s ease 0s, color 0.15s ease 0.15s;
+}
+
+button:hover {
+    background-color: #e2e2e2;
+    color: #282877;
+}
+
+button:active {
+    color: white;
+    border-color: black;
+    background-color: black;
+    transition: none;
+}
+
+#ablakHatter {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #000000b3;
+    display: none;
+}
+
+#ablak {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    background-color: #e2e2e2;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #282877;
+    border-radius: 6px;
+    padding: 0 20px;
+}
+
+input, textarea {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 300px;
+}
+
+textarea {
+    resize: none;
+}
+
+.hibasMezo {
+    border-color: red;
+}
+
+.bejegyzes {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid #282877;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px -1px #555;
+}
+
+.bejegyzes h5 {
+    margin: 0;
+    background-color: #282877;
+    color: white;
+    padding: 6px 10px;
+}
+
+.bejegyzes p {
+    padding: 0 10px;
+}
+
+.idopont {
+    margin-bottom: 0;
+    font-style: italic;
+    text-align: right;
+    font-size: 14px;
+}

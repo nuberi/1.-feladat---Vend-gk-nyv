@@ -1,0 +1,5 @@
+<?php
+
+    /* Bejegyzés rögzítése adatbázisba */
+
+?>
