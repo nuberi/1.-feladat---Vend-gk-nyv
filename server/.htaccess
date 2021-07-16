@@ -11,6 +11,5 @@
   RewriteCond %{REQUEST_URI} ^.*public/(.*)
   RewriteRule ^(.*)$ src/public/%1 [END]
 
-  # Minden más esetben az index.php-t futtasd le
-  RewriteRule (.*)  src/index.php [QSA]
+  
 </IfModule>

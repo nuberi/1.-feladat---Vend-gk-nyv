@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/style.css">
     <title>Vendégkönyv</title>
 </head>
 <body>
@@ -29,6 +29,6 @@
             </form>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="public/main.js"></script>
 </body>
 </html>
